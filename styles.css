@@ -42,8 +42,27 @@ table {
 #teller-kep{
   width: 260px;
   float: right;
+  margin-left: 20px;
 }
 
 ul {
   list-style-image: url('physics_icon.png');
+}
+
+.adatcella{
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  text-align: center;
+}
+
+.fejleccella{
+  color: white;
+  background-color: gray;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 a:hover{
+  text-decoration: none;
+  color: red;
 }
